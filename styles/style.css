@@ -11,7 +11,6 @@
 
 .header__menu{
     max-width: 392px;
-    width: 100%;
 }
 
 .header__links-list{
@@ -44,7 +43,6 @@
 
 .address{
     max-width: 240px;
-    width: 100%;
     justify-self: end;
     display: flex;
     flex-direction: column;
@@ -136,4 +134,101 @@
     color: #fff;
     border: 1px solid #fff;
     text-transform: uppercase;
+}
+
+.lots{
+    margin: 179px 24px 146px 24px;
+    max-width: 1052px;
+    min-height: 692px;
+}
+
+.lots__heading{
+    margin-left: 40px;
+    margin-bottom: 27px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lots__card-list{
+    margin-bottom: 30px;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(334px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(563px, 1fr));
+    /* justify-items: stretch;
+    align-items: stretch; */
+    gap: 25px;
+}
+
+.lots__card-list-item{
+    min-height: 563px;
+}
+
+.card-link{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.card{
+    padding: 51px 40px 48px 40px;
+    position: relative;
+    height: 100%;
+    z-index: -2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_type_film{
+    background-image: url(../images/card-lot-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_type_book{
+    background-image: url(../images/card-lot-02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_type_picture{
+    background-image: url(../images/card-lot-03.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card__title{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card__text{
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.lots__look-more-link{
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+.lots__look-more-link::before{
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
 }
