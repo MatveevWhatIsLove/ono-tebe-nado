@@ -177,7 +177,6 @@
     padding: 51px 40px 48px 40px;
     position: relative;
     height: 100%;
-    z-index: -2;
     color: #fff;
     display: flex;
     flex-direction: column;
