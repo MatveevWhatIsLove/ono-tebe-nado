@@ -62,7 +62,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
 
 .overlay{
@@ -126,6 +126,7 @@
 }
 
 .bet-button{
+    cursor: pointer;
     width: 257px;
     height: 51px;
     padding: 12px 32px;
@@ -181,6 +182,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .card_type_film{
